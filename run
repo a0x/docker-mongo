@@ -1,3 +1,8 @@
 #!/bin/bash
 
-sudo docker run -p 27017:27017 --name mongo_instance_001 -d $1 -v volume/data:/var/lib/mongodb -v volume/logs:/var/log/mongodb/
+sudo docker run -d \
+                -p 27017:27017 \
+                -v /srv/mongo/data:/data/db \
+                -v /srv/mongo/logs:/var/log/mongodb \
+                --name $2 \
+                $1
