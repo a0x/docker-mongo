@@ -58,13 +58,12 @@ mongo --port 28002
 ### Running with `run` script
 
 ```
-./run [image_name] [container_name]
+./run <image_name> <container_name>
 ```
 
 ## TODO
 
-* Mount data volume locally
-* Build MongoDB Cluster
+* Add other dockerfiles for different use
 
 ## LICENSE
 
