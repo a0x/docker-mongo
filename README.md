@@ -44,7 +44,7 @@ $ mongo --port 28002
 
 ## TODO
 
-* Change ubuntu source.list
+* Mount data volume locally
 * Build MongoDB Cluster
 
 ## LICENSE
